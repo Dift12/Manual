@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    margin: auto;
+    width: max-content;
+    padding: 15px;
+    background-color: black;
+}
+
+
+section{
+    max-inline-size: 66ch;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+p::first-letter{
+    font-size: 1.5rem;
+    padding: 2px;
+    margin: 1px;
+    border: 1px dashed white;
+}
+
+section p:first-child::first-letter{
+    font-family: 'Kingthings Exeter';
+    font-size: 1.7rem;
+}
+
+h1{
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Kingthings Exeter';
+}
+
+h1,h2{
+    color: brown;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.3rem;
+}
+
+.disclaimer{
+    font-size: 1.1rem;
+    color: yellow;
+}
+
+.accent{
+    font-weight: bold;
+    color: yellow;
+}
